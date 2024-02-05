@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <h1>MakeMyTrip</h1>
+
+    <div>
+        <form action="backend.php">
+            
+            <div>
+                <label for="name"> 
+                    Name <input type="text" name="name" id="name" placeholder="Name">
+                </label>
+            </div>
+            
+            <br>
+            <label for="email">
+                Email <input type="email" name="email" id="email">
+            </label>
+            <br>
+
+            <br>
+            <label for="gender">
+                Gender <input type="radio" name="gender" id="gender"> Male 
+                <input type="radio" name="gender" id="gender"> Female
+            </label>
+            <br>
+
+            <br>
+            <label for="accept">
+                Accept terms and Conditions <input type="checkbox" name="accept" id="accept">
+            </label>
+            <br>
+            <br>
+            <textarea name="review" id="review" cols="30" rows="10" placeholder="Enter modes of tranpotation both ways"></textarea>
+            <br>
+
+            <br>
+            <label for="place"> Enter the Destinaltion 
+                <select name="place" id="place">
+                    <option value="kdn">Kodaikanal</option>
+                    <option value="pnd">Pondicherry</option>
+                </select>
+            </label>
+            <br>
+
+            <br>
+            Board <input type="date" name="date" id="date">
+            <br>
+
+            <br>
+            <input type="Submit" name="submit" id="submit"> 
+            <br>
+            
+            <br>
+            <input type="Reset" name="reset" id="reset"> 
+
+
+            
+
+            
+            
+
+        </form>
+    </div>
+
+</body>
+</html>
